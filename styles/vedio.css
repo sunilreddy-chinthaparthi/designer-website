@@ -1,0 +1,139 @@
+
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-top: 100px;
+  }
+  .pondwhiteimage {
+    width: 100%;
+    border-radius: 20px;
+    filter: blur(4px) grayscale(100%) opacity(70%);
+    position: relative;
+    animation: pondmove 1s 1;
+  }
+  @keyframes pondmove {
+    from {top:-150px;}
+    to {top: 0px;}
+  }
+  .pondwhiteimage:hover {
+    filter: blur(0px) grayscale(100%);
+    transition-duration: 1s;
+  }
+  .pondwhiteimage:active {
+    filter: grayscale(0%);
+  }
+  .pondimage-text {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    animation: pondtextmove 1s 1;
+  }
+  @keyframes pondtextmove {
+    from {top:-30px;}
+    to {top: 0px;}
+  }
+  .nandhihills-image {
+    width: 100%;
+    border-radius: 20px;
+    filter: blur(4px) grayscale(100%) opacity(70%);
+    position: relative;
+    animation: nandhimove 2s 1 ;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+  }
+  @keyframes nandhimove {
+    from {right:-400px;}
+    to {right: 0px;}
+  }
+  .nandhihills-image:hover {
+    filter: blur(0px) grayscale(100%);
+    transition-duration: 1s;
+  }
+  .nandhihills-image:active {
+    filter: grayscale(0%);
+  }
+
+  .nandhihillsimage-text {
+    font-size: 20px;
+    font-style: italic;
+    color:white;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    animation: nandhi-textmove 1s 1;
+  }
+  @keyframes nandhi-textmove {
+    from {top:-30px;}
+    to {top: 0px;}
+  }
+  .btech2ndyear-image {
+    width: 100%;
+    border-radius: 20px;
+    filter: blur(4px) grayscale(100%) opacity(70%);
+    position: relative;
+    animation: betch2-imagemove 2s 1;
+  }
+  @keyframes  betch2-imagemove {
+    from {left:-400px;}
+    to {left: 0px;}
+  }
+  .btech2ndyear-image:hover {
+    filter: blur(0px) grayscale(100%);
+    transition-duration: 1s;
+  }
+  .btech2ndyear-image:active {
+    filter: grayscale(0%);
+  }
+  .btech2ndyearimage-text{
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    animation: betech2-textmove 1s 1;
+  }
+    @keyframes  betech2-textmove {
+      from {top:-30px;}
+      to {top: 0px;}
+  }
+  .btech3rdyear-image {
+    width: 100%;
+    border-radius: 20px;
+    filter: blur(4px) grayscale(100%) opacity(70%);
+    position: relative;
+    animation: betech3-imagemove 1s 1;
+  }
+  @keyframes  betech3-imagemove {
+    from {bottom: -150px;}
+    to {bottom: 0px;}
+  }
+  .btech3rdyear-image:hover {
+    filter: blur(0px) grayscale(100%);
+    transition-duration: 1s;
+  }
+  .btech3rdyear-image:active {
+    filter: grayscale(0%);
+  }
+  .btech3rdyearimage-text {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    animation: betech3-textmove 1s 1;
+  }
+  @keyframes  betech3-textmove {
+    from {top:-30px;}
+    to {top: 0px;}
+}
