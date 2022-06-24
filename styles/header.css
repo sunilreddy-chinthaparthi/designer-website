@@ -80,6 +80,7 @@
   }
   .search-bar::placeholder{
     font-size: 20px;
+    color: black;
 
   }
 
